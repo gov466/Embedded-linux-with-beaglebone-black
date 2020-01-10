@@ -112,7 +112,7 @@ But powering through USB has couple of disadvantages.
 
 But don’t worry most of the time the current from the USB cable connected to PC is sufficient and you may not need to buy power adapter unless you connect lots of power hungry peripherals to the BBB. 
 
-2. DC Barrel Plug 5.5mm/2.1mm (Recommended 5V @ 2A) 
+2 DC Barrel Plug 5.5mm/2.1mm (Recommended 5V @ 2A) 
 
 You can also power the board by connecting a DC power adapter to the board; it should limit the current to max 2A. This power adapter won’t come with the board and you have to purchase it separately only if required
 
@@ -122,7 +122,7 @@ You can also power the board by connecting a DC power adapter to the board; it s
 
 Check the next article about other external components which may be required with the BBB hardware. 
 
-### 9) BBB Back Side View 
+#### 9) BBB Back Side View 
 
 I have covered only important hardware details about the board.
 
