@@ -104,11 +104,11 @@ The mini USB cable comes with the BBB, and using that cable you can power the bo
 
 But powering through USB has couple of disadvantages.
 
-1) You won’t be able to run the board at full speed
+ 1) You won’t be able to run the board at full speed
 
-2) You won’t be able to drive the LCD
+ 2) You won’t be able to drive the LCD
 
-3) You will not be able to drive the some Beaglebone capes connected over expansion headers.
+ 3) You will not be able to drive the some Beaglebone capes connected over expansion headers.
 
 But don’t worry most of the time the current from the USB cable connected to PC is sufficient and you may not need to buy power adapter unless you connect lots of power hungry peripherals to the BBB. 
 
