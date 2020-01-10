@@ -98,7 +98,7 @@ Unlike older beagle boards, the beagleboard.org added this button on the BBB, wh
 
 There are 2 options to power the board. 
 
-1. Through the Mini USB port
+1> Through the Mini USB port
 
 The mini USB cable comes with the BBB, and using that cable you can power the board by connecting it to your PC. At max it can only get the current of 500mA . Note that there are 2 mini USB ports on the board. You should use the one which is adjacent to the Ethernet connector which says P4.
 
@@ -112,7 +112,7 @@ But powering through USB has couple of disadvantages.
 
 But don’t worry most of the time the current from the USB cable connected to PC is sufficient and you may not need to buy power adapter unless you connect lots of power hungry peripherals to the BBB. 
 
-2. DC Barrel Plug 5.5mm/2.1mm (Recommended 5V @ 2A) 
+2> DC Barrel Plug 5.5mm/2.1mm (Recommended 5V @ 2A) 
 
 You can also power the board by connecting a DC power adapter to the board; it should limit the current to max 2A. This power adapter won’t come with the board and you have to purchase it separately only if required
 
