@@ -4,6 +4,8 @@ Learning beaglebone with embedded linux
 ## Introduction
 BeagleBone Black(BBB) Board Introduction :
 
+![](images/Screenshota.png)
+
 It is actually redundant to explain about Beaglebone hardware, when you can get all the info regarding this board from its official site here 
 
 The community describes this board as follows
@@ -23,6 +25,7 @@ When the hardware team is working on the new hardware, the software team will no
 The BBB hardware is powerful yet low cost SBC currently available. 
 
 So, what’s a SBC?
+![](images/Screenshotb.png)
 
 When a single piece of circuit board, comprises most of the personal Computer hardware/software components, then it is called as a SBC. Of course you cannot have terra bytes of hard disk mounted on a circuit board, but it has significant amount of on board memory, it has wireless/wired connectivity, it has USB interfaces, it can run operating systems, you can connect to monitor or projector. Yes! You can compare this with the motherboard of your PC.
 
