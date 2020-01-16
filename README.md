@@ -25,7 +25,6 @@ When the hardware team is working on the new hardware, the software team will no
 The BBB hardware is powerful yet low cost SBC currently available. 
 
 So, what’s a SBC?
-![](images/Screenshotb.png)
 
 When a single piece of circuit board, comprises most of the personal Computer hardware/software components, then it is called as a SBC. Of course you cannot have terra bytes of hard disk mounted on a circuit board, but it has significant amount of on board memory, it has wireless/wired connectivity, it has USB interfaces, it can run operating systems, you can connect to monitor or projector. Yes! You can compare this with the motherboard of your PC.
 
@@ -35,8 +34,8 @@ When a single piece of circuit board, comprises most of the personal Computer ha
 
 Heart of the BBB SBC is a SOC by Texas instruments. 
 So , What is a SOC ? 
+![](images/Screenshotb.png)
 
-//figure
  SOC stands for System on Chip. As the name indicates, a single chip contains most of the essential computing /communication/storage engine of the computing world, like Flash memory, Graphics processing engine, the image 
 
 processing engine, the USB communication engine, RS232, SPI, I2C engine and much more. The heart of the SOC is a processor.
