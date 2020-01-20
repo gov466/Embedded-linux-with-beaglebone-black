@@ -1,7 +1,7 @@
 # Embedded-linux-with-beaglebone-black
 Learning beaglebone with embedded linux
 
-## Introduction
+### Introduction
 BeagleBone Black(BBB) Board Introduction :
 
 ![](images/Screenshota.png)
