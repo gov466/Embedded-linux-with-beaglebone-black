@@ -53,13 +53,14 @@ You can get full source schematics, hardware layout files, a full Bill of materi
 You can also get software updates, prebuilt images, and sample codes by following the beagleboard.org.
 
 Now let’s pay attention to some of the important hardware parts of the BBB Rev C board. 
-//figure
+![](images/Screenshotc.png)
+
 #### 1) The AM355x SOC by TI
 
 As I already mentioned, this SOC is from TI and can run up to the speed of 1GHZ and the SOC is powered by ARM cortex A8 processor.
 
 The exact name of the SOC is : AM3358BZCZ100  on REV ‘C’ BBB Board
-
+![](images/Screenshotd.png)
 The Technical Reference manual of this SOC can be found here , 
 
 http://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
@@ -68,27 +69,35 @@ http://www.ti.com/lit/ug/spruh73p/spruh73p.pdf
 
 #### 2) Embedded MMC (eMMC)
 
+![](images/Screenshote.png)
+
 The board has 4GB of eMMC(embedded Multi Media Controller) memory chip, This is an on-board  memory chip that holds up to 4GB of data in BBB Rev C.
 
 Accessing data from this memory is much faster than accessing through external micro sd card , and remember that the board boots from this memory by default. But you can always change, from where the boot should boot, more on this is covered later. 
 
 #### 3) SDRAM Memory: 512MB DDR3 
 
+![](images/Screenshotf.png)
+
 This is external Dynamic RAM memory, the board comes with SDRAM Memory: 512MB DDR3. This is on the board and connected to SOC. I will cover more on memory interfaces later in this course. They claim this memory as, faster and low power RAM memory. During booting the boot images will get loaded to this RAM from other memories and will execute from here, more on this later. 
 
 #### 4) Serial(UART) pin outs. 
+![](images/Screenshotg.png)
 
 The BBB hardware doesn’t come with on board UART to usb convertor chip. But , what they have given is serial port pin outs. They want you to get an external uart to usb convertor hardware and connect to these pins in order to get the debug messages from the board on to your Host PC serial monitoring software.
 
 More on this covered later in the course.  
 
 #### 5) The boot button (S2)
+![](images/Screenshoth.png)
 
 As I said, the board boots from on-board eMMC memory by default, so instead of eMMC booting, if you want to boot from the external SD card, then you have to use this button (S2). By pressing and holding this button, if you apply the power or press the power button, then board will boot from the external SD Card.
 
 More on this later, don’t worry for a time being. 
 
 #### 6) The 4 User LEDs. 
+
+![](images/Screenshoti.png)
 
 There are 4 on board LEDs to play around; we will see how we can access these 4 LEDs through ‘c’ programming as well using Linux SYSFS Techniques later in this course. I will also explain about their connection to the SOC GPIO ports. 
 
