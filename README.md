@@ -95,7 +95,7 @@ As I said, the board boots from on-board eMMC memory by default, so instead of e
 
 More on this later, don’t worry for a time being. 
 
-#### 6) The 4 User LEDs. 
+##### 6) The 4 User LEDs. 
 
 ![](images/Screenshoti.png)
 
