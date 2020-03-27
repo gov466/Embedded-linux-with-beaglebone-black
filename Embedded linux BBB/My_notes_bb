@@ -1,7 +1,11 @@
 ->HERE IS SOME NOTES FOR INSTALLING AND CONFIGURING BEAGLEBONE ON LINUX <-
-Firstly connect  we should a medium to communicate with put beaglebone hardware through linux which is called as 'MINICOM'.
-Open terminal and run sudo apt-get install minicom
-then minicom software will be installed on linux
-after runing the command you can type 'sudo minicom' to check whether the serial monitoring software is installed properly.
-After connectong the beaglebone hardware using the cable provied along with the package type 'dmesg' in terminal to see all
-the details abpout the connected hardware.
+1.Firstly connect  we should a medium to communicate with put beaglebone hardware through linux which is called as 'MINICOM'.
+2.Open terminal and run sudo apt-get install minicom
+  then minicom software will be installed on linux
+3.After running the command you can type 'sudo minicom' to check whether the serial monitoring software is installed properly.
+4.After connectong the beaglebone hardware using the cable provied along with the package type 'dmesg' in terminal to see all
+  the details abpout the connected hardware.
+5.Then to configure minicom just type 'sudo minicom-s' then the configuration window will open.
+6.You can ue the up/down arrow keys to move around the coonfiguration bar.
+7.Then go to serail port setup option and press enter.
+8.Chnage the serial device name to yours. As seen when you typed dmesg command.
