@@ -1,6 +1,6 @@
 /*============================================================================
  Name        : mpu6050_rawread.c
- Author      : Kiran N < niekiran@gmail.com >
+ Author      : 
  Version     :
  Copyright   : Your copyright notice
  Description : This Application prints Accelerometer and gyroscope raw and G values using MPU6050 sensor
@@ -200,7 +200,7 @@ int main(void)
         accy = (double) acc_value[1]/ACC_FS_SENSITIVITY_0;
         accz = (double) acc_value[2]/ACC_FS_SENSITIVITY_0;
 
-        /* Convert gyro raw values in to  "°/s" (deg/seconds) */
+        /* Convert gyro raw values in to  "Â°/s" (deg/seconds) */
         gyrox = (double) gyro_value[0]/GYR_FS_SENSITIVITY_0;
         gyroy = (double) gyro_value[1]/GYR_FS_SENSITIVITY_0;
         gyroz = (double) gyro_value[2]/GYR_FS_SENSITIVITY_0;
@@ -210,7 +210,7 @@ int main(void)
        printf("Acc(raw)=> X:%d Y:%d Z:%d gyro(raw)=> X:%d Y:%d Z:%d \n", \
                    acc_value[0],acc_value[1],acc_value[2],gyro_value[0],gyro_value[1],gyro_value[2]);
        
-       /* print the 'g' and '°/s' values */
+       /* print the 'g' and 'Â°/s' values */
        printf("Acc(g)=> X:%.2f Y:%.2f Z:%.2f gyro(dps)=> X:%.2f Y:%.2f Z:%.2f \n", \
                accx,accy,accz,gyrox,gyroy,gyroz);
 #endif
