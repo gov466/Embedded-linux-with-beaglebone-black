@@ -1,6 +1,8 @@
 # Embedded-linux-with-beaglebone-black
 Learning beaglebone with embedded linux
 
+[Click here](https://www.dummies.com/computers/beaglebone/how-to-flash-your-beaglebone-microsd-card/) to know how to flash sd card for beaglebone black
+
 ### Introduction
 BeagleBone Black(BBB) Board Introduction :
 
